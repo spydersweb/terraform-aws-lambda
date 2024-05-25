@@ -1,3 +1,5 @@
+# Use this variable to determine if the Go binary and 
+# deployment package should be built.
 variable "build_go_binary" {
   description = "Boolean to determine if the Go binary should be build and zipped"
   type = bool
